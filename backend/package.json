@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "fastify": "^1.0.0-rc.1",
+    "mongoose": "^5.0.4"
+  }
+}

@@ -1,0 +1,49 @@
+button{
+    background-color: #65499c;
+    border-color: #65499c;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+input{
+    width: 50vw;
+    height: 5vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 0.4rem;
+    color: #7e7b7b;
+}
+
+.Todo{
+    color: #3f3e3e;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 60%;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.2rem 0.8rem 1.6rem #5e35b1;
+}
+.Todo:hover{
+    transition: box-shadow 0.3s ease-in;
+}
+
+.closeIcon{
+    font-size: 20px;
+    list-style-type: none;
+    text-align: right;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.text{
+    word-break: break-all
+}
